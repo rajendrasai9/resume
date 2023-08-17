@@ -1,0 +1,145 @@
+/* Reset default margin and padding */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Certifications styling */
+#certifications h2 {
+    margin-bottom: 1.5rem; /* Increase space below heading */
+  }
+  
+  #certifications ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  #certifications li {
+    margin-bottom: 0.5rem; /* Decrease space between certifications */
+  }
+  
+  #certifications a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  #certifications a:hover {
+    color: #0056b3;
+  }
+  
+  /* Education styling */
+  #education p {
+    margin-bottom: 0.5rem;
+    font-style: italic;
+  }
+  
+  
+/* Set a background color and font */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+/* Header styling */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+/* Navigation styling */
+nav ul {
+    list-style: none;
+    display: flex;
+    background-color: #444;
+    justify-content: center;
+    padding: 0.5rem 0;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+/* Section styling */
+section {
+    padding: 2rem;
+}
+
+/* ... Previous styles ... */
+
+/* Project styling */
+.project {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .project-title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem; /* Space between project title and description */
+  }
+  
+  .project-title h3 {
+    color: #333;
+    margin-right: 0.5rem; /* Space between icon and title */
+  }
+  
+  .project-title .github-icon {
+    width: 16px; /* Adjust the icon width as needed */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  .project-description {
+    margin-top: 0.5rem; /* Space between project title and description */
+  }
+  
+  /* ... Remaining styles ... */
+  
+
+/* Contact styling */
+#contact ul {
+    list-style: none;
+    padding: 0;
+}
+
+#contact li {
+    margin-bottom: 0.5rem;
+}
+
+/* Footer styling */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 0.5rem 0;
+}
+
+/* Links styling */
+a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #0056b3;
+}
