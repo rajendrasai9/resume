@@ -143,3 +143,23 @@ a {
 a:hover {
     color: #0056b3;
 }
+
+.mobile-menu-icon {
+    display: none; /* Hide by default on larger screens */
+}
+
+@media (max-width: 768px) {
+    .mobile-menu-icon {
+        display: block; /* Show on smaller screens */
+    }
+    
+    nav ul {
+        display: none; /* Hide the regular navigation list */
+        /* ... other styles ... */
+    }
+    
+    /* Show the navigation list when the icon is clicked */
+    .mobile-menu-icon.active + nav ul {
+        display: block;
+    }
+}
